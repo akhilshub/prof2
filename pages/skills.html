@@ -1,26 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title>My Skills</title>
+  <title>My Skills</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .skills-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+    }
+
+    .skills-container .category {
+      width: 48%;
+    }
+
+    .skills-container ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .resume-link {
+      display: block;
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .resume-link a {
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+  </style>
 </head>
 <body>
-   <h1>My Skills</h1>
+  <h1>My Skills</h1>
 
-   <h2>Soft Skills</h2>
-   <ul>
-      <li>Communication</li>
-      <li>Teamwork</li>
-      <li>Problem-solving</li>
-   </ul>
+  <div class="skills-container">
+    <div class="category">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>Programming languages (e.g., Java, Python, JavaScript)</li>
+        <li>Web development (HTML, CSS, JavaScript)</li>
+        <li>Database management (MySQL, MongoDB)</li>
+        <li>Version control (Git, SVN)</li>
+        <li>Frameworks and libraries (e.g., React, Spring, Django)</li>
+      </ul>
+    </div>
 
-   <h2>Technical Skills</h2>
-   <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-   </ul>
+    <div class="category">
+      <h2>Soft Skills</h2>
+      <ul>
+        <li>Communication</li>
+        <li>Problem-solving</li>
+        <li>Teamwork</li>
+        <li>Leadership</li>
+        <li>Time management</li>
+      </ul>
+    </div>
+  </div>
 
-   <h2>Resume</h2>
-   <p>Click <a href="path/to/your_resume.pdf" target="_blank">here</a> to download my resume.</p>
+  <div class="resume-link">
+    <a href=".\prof2\Akhil_RESUME.pdf" target="_blank">Download Resume (PDF)</a>
+  </div>
 </body>
 </html>
